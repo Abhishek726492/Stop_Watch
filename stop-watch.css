@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: arial;
+}
+.main-div {
+  display: grid;
+  place-items: center;
+  margin: 0;
+  margin-top: 100px;
+}
+
+.main-time-button {
+  background-color: rgb(28, 28, 28);
+  border: none;
+  padding: 300px 300px;
+  border-radius: 1000px;
+  position: relative;
+  margin-bottom: 80px;
+  box-shadow: 0px 1px 40px 30px rgba(214, 214, 214, 0.3);
+}
+
+.main-time {
+  font-size: 70px;
+  color: white;
+  font-family: arial;
+  position: absolute;
+  top: 185px;
+  left: 110px;
+}
+
+.mark-button,
+.start-button,
+.reset-button {
+  border:none;
+  font-size: 30px;
+  margin-left: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-family: arial;
+  color: white;
+  cursor: pointer;
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+ .main-time-button {
+  padding: 200px 200px;
+ }
+ .main-time {
+  font-size: 50px;
+  top: 130px;
+  left: 80px;
+ }
+}
+.mark-button {
+  background-color: rgb(96, 96, 234);
+}
+
+.start-button {
+  background-color: rgb(0, 193, 0);
+}
+
+.to-red {
+  color: rgb(0, 193, 0);
+  background-color: white;
+}
+
+.reset-button {
+  background-color: rgb(255, 44, 44);
+}
+
+.mark-time {
+  color: rgb(122, 122, 122);
+  margin-top: 50px;
+  font-size: 40px;
+}
+.time-span {
+  font-weight: bold;
+  color:rgb(219, 219, 219)
+}
