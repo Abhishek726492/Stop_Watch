@@ -38,7 +38,7 @@ body {
   font-weight: bold;
   font-family: arial;
   color: white;
-  cursor: pointer;
+  cursor: pointer;  
 }
 
 @media (min-width: 751px) and (max-width: 999px){
@@ -66,6 +66,16 @@ body {
 
 .reset-button {
   background-color: rgb(255, 44, 44);
+}
+
+.mark-button:active {
+  background-color: white;
+  color: rgb(96, 96, 234);
+}
+
+.reset-button:active {
+  background-color: white;
+  color: rgb(255, 44, 44);
 }
 
 .mark-time {
