@@ -22,6 +22,10 @@ function resetAll()
   document.querySelector('.js-start-btn').innerHTML='Start';
   document.querySelector('.js-mark-time').innerHTML='';
   arr=[];
+  obj.hour2=0;
+  obj.min2=0;
+  obj.sec2=0;
+  obj.ms2=0;
   document.querySelector('.js-start-btn').classList.remove('to-red');
 }
 
