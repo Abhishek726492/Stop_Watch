@@ -79,6 +79,7 @@ function stopTime()
 
 function displayMarkedTimes()
   {
+    if(arr.length<70) {
     arr.push({...obj});
     document.querySelector('.js-mark-time').innerHTML='';
     for(let i=0;i<arr.length;i++)
@@ -86,5 +87,6 @@ function displayMarkedTimes()
     document.querySelector('.js-mark-time').innerHTML=`
     <p><span class="time-span">#${i+1}</span>  ${arr[i].hour2}:${arr[i].min2}:${arr[i].sec2}:${arr[i].ms2}</p>
     `+document.querySelector('.js-mark-time').innerHTML;
+    }
     }
   }
